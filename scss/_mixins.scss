@@ -1,0 +1,18 @@
+// Transition
+@mixin transition ($properties...) {
+	transition: $properties .3s ease-out;
+	-webkit-transition: $properties .3s ease-out;
+	-moz-transition: $properties .3s ease-out;
+	-ms-transition: $properties .3s ease-out;
+	-o-transition: $properties .3s ease-out;
+}
+
+// Top to Bottom Gradient
+@mixin top-gradient ($top, $bottom) {
+	background-color: $bottom; 
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($top), to($bottom));
+    background-image: -webkit-linear-gradient(top, $top, $bottom); 
+    background-image:    -moz-linear-gradient(top, $top, $bottom);
+    background-image:     -ms-linear-gradient(top, $top, $bottom);
+    background-image:      -o-linear-gradient(top, $top, $bottom);
+}

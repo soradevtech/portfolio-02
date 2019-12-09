@@ -1,0 +1,43 @@
+/*    Fonts
+-------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700');
+$primary-font: "Open Sans", verdana, tahoma, sans-serif;
+$secondary-font: "Lato", helvetica, arial, sans-serif;
+$tertiary-font: "Oswald", verdana, tahoma, sans-serif;
+
+
+/*    Colors
+-------------------------------------------------------------- */
+
+// General
+$black: #000;
+$white: #fff;
+$bg: $white;
+
+// Colors
+
+
+// Typography
+$text-color: #000; // used for main body text
+$h1: #222; // used for <h1>'s
+$h2: #222; // used for <h2>'s
+$h3: #222; // used for <h3>'s
+$link: black; // main link color
+$link-hover: #ff5253; // main link hover color
+
+
+
+/*    Units
+-------------------------------------------------------------- */
+
+// Typography
+$font-size: .9375rem; // used for main body text
+$line-height: 1.625rem; // used for line-height on main body text
+$h1-size: 2.5rem; // used for size of content <h1>
+$h2-size: 2rem; // used for size of content <h2>
+$h3-size: 1.5rem; // used for size of content <h3>
+
+// Breakpoints
+$large-bp: 1300px;
+$med-bp: 960px;
+$small-bp: 767px;

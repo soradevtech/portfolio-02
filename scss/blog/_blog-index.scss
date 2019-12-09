@@ -1,0 +1,39 @@
+.blogfeed h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.blogfeed #searchform {
+    text-align: center;
+    #searchsubmit {
+        cursor: pointer;
+    }
+}
+
+.blogfeed .post {
+    p {
+    color: black;
+        a {
+            background: rgba(255, 255, 255, .5);
+            margin-left: 10px;
+            padding: 5px;
+            border-radius: 5px
+        }
+    }
+    .meta {margin-bottom: 10px;}
+    p:nth-of-type(2) {
+        margin-bottom: 5px;
+        padding: 10px;
+        background: rgba(255, 255, 255, .5);
+      }
+    a.button {margin-bottom: 25px;}
+}
+
+h2#no-results {
+    text-align: center;
+}
+
+.error {text-align: center;}
+
+
