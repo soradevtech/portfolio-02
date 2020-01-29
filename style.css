@@ -1367,8 +1367,7 @@ header .header-icons a:hover {
   font-size: 1.2rem;
   line-height: 1.7;
   text-decoration: none;
-  margin-bottom: 1.8rem;
-  text-transform: capitalize; }
+  margin-bottom: 1.8rem; }
 
 #portfolio-projects .technologies {
   padding: 100px 0; }
@@ -1497,7 +1496,7 @@ h2#no-results {
     margin: 0 auto 1rem;
     padding: 5px 15px;
     border-radius: 5px;
-    width: max-content;
+    width: auto;
     text-align: center; }
   .blogpost p {
     background: #000;

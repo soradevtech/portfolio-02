@@ -52,7 +52,7 @@
     </div>
 
     <div class="portfolio-container">
-      <a href="/swatchframe/" target="_blank" class="box image1">
+      <a href="/swatchframe/" class="box image1">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
@@ -61,7 +61,7 @@
         </div>
         </div>
       </a>
-      <a href="/real-estate/" target="_blank" class="box image2">
+      <a href="/real-estate/" class="box image2">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
@@ -70,7 +70,7 @@
         </div>
         </div>
       </a>
-      <a href="/the-airport/" target="_blank" class="box image3">
+      <a href="/the-airport/" class="box image3">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
@@ -79,7 +79,7 @@
         </div>
         </div>
       </a>
-      <a href="/rps-game/" target="_blank" class="box image4">
+      <a href="/rps-game/" class="box image4">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
@@ -88,7 +88,7 @@
         </div>
         </div>
       </a>
-      <a href="/html-email/" target="_blank" class="box image5">
+      <a href="/html-email/" class="box image5">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
@@ -106,7 +106,7 @@
         </div>
         </div>
       </a> -->
-      <a href="/hyperapp-restaurant/" target="_blank" class="box image6">
+      <a href="/hyperapp-restaurant/" class="box image6">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
@@ -115,7 +115,7 @@
         </div>
         </div>
       </a>
-      <a href="/jquery-pokedex/" target="_blank" class="box image7">
+      <a href="/jquery-pokedex/" class="box image7">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
