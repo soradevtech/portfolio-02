@@ -54,7 +54,7 @@
 #portfolio-projects p {
   display: inline-block;
   border-radius: 3px;
-  color: #929294;
+  color: #16171b;
   font-size: 1.2rem;
   line-height: 1.7;
   text-decoration: none;
@@ -81,15 +81,15 @@
   justify-items: center;
 }
 
-#portfolio-projects .technologies .icons img {
-  filter: grayscale(100%);
-  transition: all .3s ease-in-out;
-  cursor: pointer;
-}
+// #portfolio-projects .technologies .icons img {
+//   filter: grayscale(100%);
+//   transition: all .3s ease-in-out;
+//   cursor: pointer;
+// }
 
-#portfolio-projects .technologies .icons img:hover {
-  filter: grayscale(0);
-}
+// #portfolio-projects .technologies .icons img:hover {
+//   filter: grayscale(0);
+// }
 
 #portfolio-projects .technologies .icons .icon img {
   width: 100%;

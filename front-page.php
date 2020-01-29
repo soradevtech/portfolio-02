@@ -52,16 +52,16 @@
     </div>
 
     <div class="portfolio-container">
-      <a href="https://swatch-frame.tre-marshall.com/" target="blank" class="box image1">
+      <a href="/swatchframe/" target="_blank" class="box image1">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
-              <div class="text">Membership Site</div>
+              <div class="text">Design Inspiration Collector</div>
             </div>
         </div>
         </div>
       </a>
-      <a href="https://real-estate.tre-marshall.com/" target="blank" class="box image2">
+      <a href="/real-estate/" target="_blank" class="box image2">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
@@ -70,7 +70,7 @@
         </div>
         </div>
       </a>
-      <a href="https://airport.tre-marshall.com/" target="blank" class="box image3">
+      <a href="/the-airport/" target="_blank" class="box image3">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
@@ -79,7 +79,7 @@
         </div>
         </div>
       </a>
-      <a href="https://pokebattle.tre-marshall.com/" target="blank" class="box image4">
+      <a href="/rps-game/" target="_blank" class="box image4">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
@@ -88,7 +88,7 @@
         </div>
         </div>
       </a>
-      <a href="https://email.tre-marshall.com/" target="blank" class="box image5">
+      <a href="/html-email/" target="_blank" class="box image5">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
@@ -97,7 +97,7 @@
         </div>
         </div>
       </a>
-      <a href="https://book-list.tre-marshall.com/" target="blank" class="box image6">
+      <!-- <a href="https://book-list.tre-marshall.com/" target="_blank" class="box image6">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
@@ -105,17 +105,17 @@
             </div>
         </div>
         </div>
-      </a>
-      <a href="https://hyper-restaurant.tre-marshall.com/" target="blank" class="box image7">
+      </a> -->
+      <a href="/hyperapp-restaurant/" target="_blank" class="box image6">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
-              <div class="text">Steak Restaurant</div>
+              <div class="text">Single Page Restaurant</div>
             </div>
         </div>
         </div>
       </a>
-      <a href="https://pokedex.tre-marshall.com/" target="blank" class="box image8">
+      <a href="/jquery-pokedex/" target="_blank" class="box image7">
         <div class="image">
           <div class="hover-bg">
             <div class="title">

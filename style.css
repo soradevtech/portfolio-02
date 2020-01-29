@@ -746,7 +746,7 @@ header .header-icons a:hover {
   grid-row: 2 / 3; }
 
 #portfolio-section .portfolio-container .box.image6 .image {
-  background: url("img/pf-tiles/book-list.jpg");
+  background: url("img/pf-tiles/hyper-restaurant.jpg");
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -758,7 +758,7 @@ header .header-icons a:hover {
   grid-row: 3 / 4; }
 
 #portfolio-section .portfolio-container .box.image7 .image {
-  background: url("img/pf-tiles/hyper-restaurant.jpg");
+  background: url("img/pf-tiles/pokedex.jpg");
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -1363,7 +1363,7 @@ header .header-icons a:hover {
 #portfolio-projects p {
   display: inline-block;
   border-radius: 3px;
-  color: #929294;
+  color: #16171b;
   font-size: 1.2rem;
   line-height: 1.7;
   text-decoration: none;
@@ -1385,14 +1385,6 @@ header .header-icons a:hover {
   grid-gap: 20px;
   align-items: center;
   justify-items: center; }
-
-#portfolio-projects .technologies .icons img {
-  filter: grayscale(100%);
-  transition: all .3s ease-in-out;
-  cursor: pointer; }
-
-#portfolio-projects .technologies .icons img:hover {
-  filter: grayscale(0); }
 
 #portfolio-projects .technologies .icons .icon img {
   width: 100%;
