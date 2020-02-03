@@ -15,7 +15,7 @@
         <div class="info">
           <div class="buttons">
             <a href="https://rps-game.tre-marshall.com/" target="_blank"><i class="fas fa-desktop"></i> View Project</a>
-            <a href="https://github.com/soraphoenix/pokemon-rps/" target="_blank"><i class="fas fa-code"></i> View Code</a>
+            <a href="https://github.com/soraphoenix/javascript-rps-game" target="_blank"><i class="fas fa-code"></i> View Code</a>
           </div>
         </div>
         <p><b>Description: </b>Rock Paper Scissors game written in normal JavaScript. Player and CPU character both have life bars to play multiple rounds until there is a winner.</p>
