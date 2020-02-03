@@ -8,7 +8,7 @@
       <div class="container">
         <div class="project-image">
           <a href="https://email.tre-marshall.com/" target="_blank">
-            <div class="img" style="background: url('<?php bloginfo('template_directory') ?>/img/pf-tiles/email.jpg');"></div>
+            <div class="img" style="background: url('<?php bloginfo('template_directory') ?>/img/project-pages/html-email-screenshot.png');"></div>
           </a>    
         </div>
         <h1>HTML Email</h1>

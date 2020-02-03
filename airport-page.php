@@ -8,7 +8,7 @@
       <div class="container">
         <div class="project-image">
           <a href="https://airport.tre-marshall.com/" target="_blank">
-            <div class="img" style="background: url('<?php bloginfo('template_directory') ?>/img/pf-tiles/airport.jpg');"></div>
+            <div class="img" style="background: url('<?php bloginfo('template_directory') ?>/img/project-pages/airport-screenshot.png');"></div>
           </a>    
         </div>
         <h1>The Airport <p style="font-size: 2rem;">(WIP)</p></h1>

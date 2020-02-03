@@ -8,7 +8,7 @@
       <div class="container">
         <div class="project-image">
           <a href="https://pokedex.tre-marshall.com/" target="_blank">
-            <div class="img" style="background: url('<?php bloginfo('template_directory') ?>/img/pf-tiles/pokedex.jpg');"></div>
+            <div class="img" style="background: url('<?php bloginfo('template_directory') ?>/img/project-pages/pokedex-screenshot.png');"></div>
           </a>    
         </div>
         <h1>Pokedex <p style="font-size: 2rem;">(WIP)</p></h1>

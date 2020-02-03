@@ -8,7 +8,7 @@
       <div class="container">
         <div class="project-image">
           <a href="https://swatch-frame.tre-marshall.com/" target="_blank">
-            <div class="img" style="background: url('<?php bloginfo('template_directory') ?>/img/pf-tiles/swatch-frame.jpg');"></div>
+            <div class="img" style="background: url('<?php bloginfo('template_directory') ?>/img/project-pages/swatchframe-screenshot.png');"></div>
           </a>
         </div>
         <h1>SwatchFrame <p style="font-size: 2rem;">(WIP)</p></h1>

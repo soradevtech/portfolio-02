@@ -8,7 +8,7 @@
       <div class="container">
         <div class="project-image">
           <a href="https://real-estate.tre-marshall.com/" target="_blank">
-            <div class="img" style="background: url('<?php bloginfo('template_directory') ?>/img/pf-tiles/real-estate.jpg');"></div>
+            <div class="img" style="background: url('<?php bloginfo('template_directory') ?>/img/project-pages/real-estate-screenshot.png');"></div>
           </a>    
         </div>
         <h1>Real Estate App <p style="font-size: 2rem;">(WIP)</p></h1>

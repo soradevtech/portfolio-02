@@ -8,7 +8,7 @@
       <div class="container">
         <div class="project-image">
           <a href="https://hyper-restaurant.tre-marshall.com/" target="_blank">
-            <div class="img" style="background: url('<?php bloginfo('template_directory') ?>/img/pf-tiles/hyper-restaurant.jpg');"></div>
+            <div class="img" style="background: url('<?php bloginfo('template_directory') ?>/img/project-pages/hyper-restaurant-screenshot.jpg');"></div>
           </a>    
         </div>
         <h1>Single Page Restaurant Site <p style="font-size: 2rem;">(WIP)</p></h1>
