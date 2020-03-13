@@ -83,7 +83,7 @@
         <div class="image">
           <div class="hover-bg">
             <div class="title">
-              <div class="text">Pokemon RPS</div>
+              <div class="text">RPS Game</div>
             </div>
         </div>
         </div>

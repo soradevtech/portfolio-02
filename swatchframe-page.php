@@ -19,7 +19,7 @@
           </div>
         </div>
         <p><b>Challenge: </b>Users of sites like Behance tend to use the featured projects as inspirations for their own projects. Having a convenient location to collect these inspirations and view them later is very helpful for aspiring designers.</p>
-        <p><b>Solution: </b>Users of sites like Behance tend to use the featured projects as inspirations for their own projects. Having a convenient location to collect these inspirations and view them later is very helpful for aspiring designers.</p>
+        <p><b>Solution: </b>SwatchFrame is a full stack application built with Laravel and the Behance API. Users can save project links from behance.net as inspirations for their own projects.</p>
         <p><b>Result: </b>SwatchFrame gives designers the ability to save collections of the projects that inspire their own projects.</p>
         <div class="technologies">
           <h3>Technologies</h3>
