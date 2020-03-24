@@ -18,6 +18,13 @@
 	</style>
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!-- Meta tags for sites like LinkedIn to scrub for link details -->
+	<meta name="image" property="og:image" content="https://images.tre-marshall.com/portfolio/portfolio-screenshot.png">
+	
+	<meta name="title" property="og:title" content="Tracy Marshall | Developer">
+	
+    <meta name="author" content="Tracy Marshall">
 	
 </head>
 
