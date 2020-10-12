@@ -9,11 +9,11 @@
 
 	<?php wp_head(); ?>
 
-	<?php the_field('header_scripts', 'option'); ?>
+	
 
 	<style>
 		
-		<?php the_field('custom_css', 'option'); ?>
+		
 
 	</style>
 
@@ -30,7 +30,7 @@
 
 <body <?php body_class(); ?>>
 
-<?php the_field('body_scripts', 'option'); ?>
+
 
 <header class="header clearfic">
 

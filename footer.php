@@ -8,8 +8,6 @@
 
 <?php wp_footer(); ?>
 
-<?php the_field('footer_scripts', 'option'); ?>
-
     <script type="text/javascript" src="js/app.js">
 
     </script>

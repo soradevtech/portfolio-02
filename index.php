@@ -12,7 +12,7 @@
 
 	<?php endwhile; ?>
 
-		<?php get_template_part('partials/nav' ); ?>
+		<?php get_template_part('partials/nav'); ?>
 
 	<?php else : ?>
 
