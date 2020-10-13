@@ -7,7 +7,7 @@
 - Splash image
 
 ### About Me
-- Picture
+- Picture 
 - about me text
 
 ### Portfolio

@@ -9,3 +9,6 @@
 * Add a close button for the nav popout menu that's used for smaller resolutions
 * Work on responsive stylings - Adjust the section spacing on the main page for smaller screens - Fix the top section splash image to display correctly at the lowest resolution - Fix the nav popout menu styling for the smaller resolutions - Adjust the responsive styling on the blog, 404, and search pages
 * fix text background for bullet points(i think that's the target?)
+
+* Figure out how to display code blocks when writing posts
+* Get a favicon

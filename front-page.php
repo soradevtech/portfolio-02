@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
-<?php get_template_part('builder/builder'); ?>
+<?php 
+  $my_pod = pods('front_page', 'default-front-page'); // Loading front page pod post
+?>
 
 <section id="top">
   <div class="container">
@@ -36,10 +38,10 @@
             <span>Developer</span>
           </div>
         </div>
-        <p>Hi, I’m a self-taught web developer. Over time I’ve learned PHP, HTML, CSS, JavaScript, ReactJS, and Laravel among other things, including my professional experience from working on a website for secret shoppers. Some of the other tools that I use are HyperappJS, AJAX, jQuery, and WordPress.</p>
-
-        <p>When I’m not building awesome projects I like to spend time with family and friends, exercise and watch streams on Twitch.tv. This website is my portfolio and includes some of the projects I’ve created, with more being posted as they are completed. Currently looking for new projects and job opportunities so feel free to contact me about your needs.</p>
-      </div>
+          <?php
+              echo $my_pod->display('about_me'); // About Me section text
+          ?>
+        </div>
       
     </div>
   </div>
