@@ -1,4 +1,7 @@
-<?php /* Template Name: Airport Page */ ?>
+<?php /* 
+Template Name: Airport Page 
+Template Post Type: staff
+*/ ?>
 
 <?php get_header(); ?>
 
