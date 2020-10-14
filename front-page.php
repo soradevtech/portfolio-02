@@ -16,7 +16,16 @@
     </div>
     <div class="img">
       <div class="background-img">
-
+        <!-- I had to write in all of the background image-specific properties directly
+          to the page in order to display the image dynamically with pods. -->
+        <style>
+          #top .img .background-img {
+            background: url("<?php echo $my_pod->display('splash_image');?>");
+            background-position: top center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+        </style>
       </div>
     </div>
   </div>
@@ -31,7 +40,9 @@
       
       <div class="test-center">
         <div class="header">
-          <div class="user-img" style="background: url('<?php bloginfo('template_directory') ?>/img/profpic.png')">
+          <div class="user-img" style="background: url('<?php
+            echo $my_pod->display('about_me_picture'); // Pod to display profile picture
+          ?>)">
           </div>
           <div class="info">
             <h4>Tracy Marshall</h4>
@@ -39,7 +50,7 @@
           </div>
         </div>
           <?php
-              echo $my_pod->display('about_me'); // About Me section text
+              echo $my_pod->display('about_me'); // About Me section text pod
           ?>
         </div>
       

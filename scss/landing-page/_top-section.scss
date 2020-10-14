@@ -60,10 +60,14 @@ position: relative;
 }
 
 #top .img .background-img {
-  background: url('img/splash-phone.png');
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  // I dynamically create this background image using inline CSS and
+  // pods directly on the page.
+  // background: url('img/splash-phone.png');
+  // These rules are commented out since I had to use them with
+  // the background css image property all in the same place
+  // background-position: top center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
   width: 100%;
   max-width: 500px;
   height: 650px;

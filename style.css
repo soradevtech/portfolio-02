@@ -1,6 +1,6 @@
 /*!
 	Theme Name: Portfolio-02
-	Theme URI: tba
+	Theme URI: https://github.com/soraphoenix/portfolio-02
 	Author: Tracy Marshall
 	Author URI: https://www.tre-marshall.com/
 	Description: Second WordPress theme for my portfolio.
@@ -485,10 +485,6 @@ header .header-icons a:hover {
   letter-spacing: 2px; }
 
 #top .img .background-img {
-  background: url("img/splash-phone.png");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
   max-width: 500px;
   height: 650px;
