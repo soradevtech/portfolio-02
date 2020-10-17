@@ -12,3 +12,4 @@
 
 * Figure out how to display code blocks when writing posts
 * Get a favicon
+* Write out comments on how the header icons are coded in

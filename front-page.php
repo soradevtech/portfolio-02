@@ -157,17 +157,21 @@
       <div class="box blue">
       <i class="fas fa-envelope-open-text"></i>
         <h5>Email</h5>
-        <p><a href="mailto:tracythedev@gmail.com" target="_blank">tracythedev@gmail.com</a></p>
+        <p><a href="mailto:<?php 
+          echo $my_pod->display('email');
+          ?>" target="_blank"><?php 
+          echo $my_pod->display('email');
+          ?></a></p>
       </div>
       <div class="box red">
       <i class="fab fa-twitter"></i>
         <h5>Twitter</h5>
-        <p><a href="https://twitter.com/soradev" target="_blank">https://twitter.com/soradev</a></p>
+        <p><?php echo $my_pod->display('twitter_link');?></p>
       </div>
       <div class="box yellow">
       <i class="fas fa-mobile-alt"></i>
         <h5>Phone</h5>
-        <p><a href="tel:510-866-0987" target="_blank">510-866-0987</a></p>
+        <p><a href="tel:<?php echo $my_pod->display('phone');?>" target="_blank"><?php echo $my_pod->display('phone');?></a></p>
       </div>
     </div>
   </div>

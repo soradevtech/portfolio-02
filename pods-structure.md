@@ -1,5 +1,6 @@
 # Navbar Pod
-- icons
+- icon
+- icon link
 
 # Front Page pod
 

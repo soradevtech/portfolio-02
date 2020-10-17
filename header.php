@@ -57,18 +57,18 @@
 	</div> -->
 
 	<div class="header-icons">
-		<a href="https://twitter.com/soradev" target="_blank">
-          <i class="fab fa-twitter"></i>
-		</a>
-		<a href="https://www.linkedin.com/in/tracy-marshall-349b2417/" target="_blank">
-          <i class="fab fa-linkedin"></i>
-		</a>
-		<a href="https://www.instagram.com/sora_dev/" target="_blank">
-          <i class="fab fa-instagram"></i>
-		</a>
-		<a href="https://github.com/soraphoenix" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
+		<?php 
+			$params = array(
+				'limit' => 0
+			);
+			$nav_icons = pods('nav_icon', $params);
+
+			// Loop through the items returned
+			while ( $nav_icons->fetch() ) { ?>
+				<?php echo '<a href="' . $nav_icons->display('icon_link') . '" target="blank">'; ?>
+					<?php echo $nav_icons->display('icon'); ?>
+				</a>
+		<?php }; ?>
 	</div>
 
 </header><!-- end header -->
