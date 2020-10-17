@@ -1,5 +1,7 @@
 # portfolio-02
-*My second portfolio design*
+*My second portfolio design
+
+** This theme runs with Pods Framework. You can take a rough look at my pods structure in pods-structure.md **
 
 **To Do:**
 * Add descriptive comments to the project as needed
@@ -13,3 +15,9 @@
 * Figure out how to display code blocks when writing posts
 * Get a favicon
 * Write out comments on how the header icons are coded in
+
+* Try to use native wordpress syntax to pull up pods data on their pages
+
+* Make the code link button on the project page unclickable when there is no available repository
+
+* Check the spacing between the project page buttons and the title

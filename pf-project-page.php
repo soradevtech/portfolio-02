@@ -1,24 +1,35 @@
 <?php /* 
-Template Name: Airport Page 
-Template Post Type: staff
+Template Name: Project Page 
+Template Post Type: pf_project
 */ ?>
 
 <?php get_header(); ?>
 
-<?php get_template_part('builder/builder'); ?>
+<?php 
+  // Grabbing the page slug to reference
+  global $post;
+  $slug = $post->post_name;
+
+  // Creating a pod reference including the slug
+  $my_pod = pods('pf_project', $slug);
+?>
 
 <section id="portfolio-projects">
       <div class="container">
         <div class="project-image">
-          <a href="https://airport.tre-marshall.com/" target="_blank">
-            <div class="img" style="background: url('<?php bloginfo('template_directory') ?>/img/project-pages/airport-screenshot.png');"></div>
+          <?php echo '<a href="' . $my_pod->display('project_link') . '" target="_blank">'; ?>
+            <div class="img" style="background: url('<?php echo $my_pod->display('splash_image'); ?>');"></div>
           </a>    
         </div>
-        <h1>The Airport <p style="font-size: 2rem;">(WIP)</p></h1>
+<h1><?php echo $my_pod->display('post_title'); ?> <?php if($my_pod->display('wip_indicator')) { ?><p style="font-size: 2rem;">(WIP)</p><?php }; ?></h1>
         <div class="info">
           <div class="buttons">
-            <a href="https://airport.tre-marshall.com/" target="_blank"><i class="fas fa-desktop"></i> View Project</a>
-            <a href="#"><i class="fas fa-code"></i> Code Repo Coming Soon</a>
+            <?php echo '<a href="' . $my_pod->display('project_link') . '" target="_blank">'; ?><i class="fas fa-desktop"></i> View Project</a>
+            <?php if($my_pod->display('source_code_link')) { ?>
+              <?php echo '<a href="' . $my_pod->display('source_code_link') . '" target="_blank">'; ?><i class="fas fa-code"></i> View Code</a>
+            <?php } else { ?>
+              <a href="#"><i class="fas fa-code"></i> Code Repo Coming Soon</a>
+            <?php }; ?>
           </div>
         </div>
         <p><b>Challenge: </b>Small businesses such as restaurants generally need a small website that describes their business and attracts customers.</p>
