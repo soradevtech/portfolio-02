@@ -27,4 +27,6 @@
 * Study how the technologies icons are being looped through in the project page. Also, make the loop conditional.
     * The conditional may also have to be looked at with the front page portfolio section
 
-*** need to check the wip boolean on the project page
+* Delete unnecessary files
+
+*** need to check the wip boolean on the project page ***
