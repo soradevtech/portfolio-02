@@ -21,7 +21,7 @@ Template Post Type: pf_project
             <div class="img" style="background: url('<?php echo $my_pod->display('splash_image'); ?>');"></div>
           </a>    
         </div>
-<h1><?php echo $my_pod->display('post_title'); ?> <?php if($my_pod->display('wip_indicator')) { ?><p style="font-size: 2rem;">(WIP)</p><?php }; ?></h1>
+<h1><?php echo $my_pod->display('post_title'); ?> <?php if($my_pod->display('wip_indicator') === 'Yes') { ?><p style="font-size: 2rem;">(WIP)</p><?php }; ?></h1>
         <div class="info">
           <div class="buttons">
             <?php echo '<a href="' . $my_pod->display('project_link') . '" target="_blank">'; ?><i class="fas fa-desktop"></i> View Project</a>

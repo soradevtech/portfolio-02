@@ -83,8 +83,15 @@
 
         // Loop through the items returned
         while ( $pf_pod->fetch() ) { ?>
-          <a href="/swatchframe/" class="box">
-            <div class="image" style="background: url('<?php echo $pf_pod->field('project_thumb'); ?>');">
+          <a href="<?php echo $pf_pod->display('permalink') ?>" class="box">
+            <div class="image" style="
+              background: url('<?php echo $pf_pod->display('project_thumb'); ?>');
+              height: 100%;
+              width: 100%;
+              background-size: cover;
+              background-position: center center;
+              background-repeat: no-repeat;
+            ">
               <div class="hover-bg">
                 <div class="title">
                   <div class="text"><?php echo $pf_pod->display('front_page_title'); ?></div>
