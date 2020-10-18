@@ -101,78 +101,6 @@
           </a>
           
       <?php }; ?>
-      <!-- <a href="/swatchframe/" class="box image1">
-        <div class="image">
-          <div class="hover-bg">
-            <div class="title">
-              <div class="text">Design Inspiration Collector</div>
-            </div>
-        </div>
-        </div>
-      </a>
-      <a href="/real-estate/" class="box image2">
-        <div class="image">
-          <div class="hover-bg">
-            <div class="title">
-              <div class="text">Real Estate App</div>
-            </div>
-        </div>
-        </div>
-      </a>
-      <a href="/the-airport/" class="box image3">
-        <div class="image">
-          <div class="hover-bg">
-            <div class="title">
-              <div class="text">Burger Restaurant</div>
-            </div>
-        </div>
-        </div>
-      </a>
-      <a href="/rps-game/" class="box image4">
-        <div class="image">
-          <div class="hover-bg">
-            <div class="title">
-              <div class="text">RPS Game</div>
-            </div>
-        </div>
-        </div>
-      </a>
-      <a href="/html-email/" class="box image5">
-        <div class="image">
-          <div class="hover-bg">
-            <div class="title">
-              <div class="text">HTML Email</div>
-            </div>
-        </div>
-        </div>
-      </a> -->
-      <!-- <a href="https://book-list.tre-marshall.com/" target="_blank" class="box image6">
-        <div class="image">
-          <div class="hover-bg">
-            <div class="title">
-              <div class="text">Book List</div>
-            </div>
-        </div>
-        </div>
-      </a> -->
-      <!-- <a href="/hyperapp-restaurant/" class="box image6">
-        <div class="image">
-          <div class="hover-bg">
-            <div class="title">
-              <div class="text">Single Page Restaurant</div>
-            </div>
-        </div>
-        </div>
-      </a>
-      <a href="/jquery-pokedex/" class="box image7">
-        <div class="image">
-          <div class="hover-bg">
-            <div class="title">
-              <div class="text">Pokedex</div>
-            </div>
-        </div>
-        </div>
-      </a> -->
     </div>
   </div>
 </section>
@@ -190,6 +118,7 @@
       <!-- Possible copy to be placed for this section: Currently looking for new projects. If you have any questions, please don’t hesitate to contact me!
         Please only use the phone contact for urgent inquiries, preferably by text initially. Otherwise, Twitter and email are the best way to reach me. -->
     <div class="services-container">
+      <!-- Adding the contact info fields -->
       <div class="box blue">
       <i class="fas fa-envelope-open-text"></i>
         <h5>Email</h5>
