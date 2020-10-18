@@ -17,7 +17,7 @@
     <div class="img">
       <div class="background-img">
         <!-- I had to write in all of the background image-specific properties directly
-          to the page in order to display the image dynamically with pods. -->
+          to the page in order to display the image dynamically with Pods. -->
         <style>
           #top .img .background-img {
             background: url("<?php echo $my_pod->display('splash_image');?>");
@@ -76,14 +76,17 @@
         }
       </style>
       <?php 
+        // Capturing fields for every portfolio project pod page
         $params = array(
           'limit' => 0
         );
         $pf_pod = pods('pf_project', $params);
 
-        // Loop through the items returned
+        // Loop through the items returned. Output as square button that links to
+        // further project info.
         while ( $pf_pod->fetch() ) { ?>
           <a href="<?php echo $pf_pod->display('permalink') ?>" class="box">
+            <!-- Background-related CSS must be in the HTML to insert the Pods image field -->
             <div class="image" style="
               background: url('<?php echo $pf_pod->display('project_thumb'); ?>');
               height: 100%;

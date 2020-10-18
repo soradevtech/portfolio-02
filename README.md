@@ -27,6 +27,11 @@
 * Study how the technologies icons are being looped through in the project page. Also, make the loop conditional.
     * The conditional may also have to be looked at with the front page portfolio section
 
-* Delete unnecessary files
+* Fix the RPS Game images
+* Fix the theme thumbnail image
+* Check the other project images for accuracy
+
+* Maybe change the splash section
+* Maybe look at a different effect for front page portfolio section hover
 
 *** need to check the wip boolean on the project page ***

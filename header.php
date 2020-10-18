@@ -67,6 +67,8 @@
 
 			// Loop through the items returned
 			while ( $nav_icons->fetch() ) { ?>
+				<!-- The img tag sometimes has to be echoed with the pod field. Sometimes the image
+					address won't print otherwise. -->
 				<?php echo '<a href="' . $nav_icons->display('icon_link') . '" target="_blank">'; ?>
 					<?php echo $nav_icons->display('icon'); ?>
 				</a>
