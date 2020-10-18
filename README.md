@@ -3,8 +3,10 @@
 
 ** This theme runs with Pods Framework. You can take a rough look at my pods structure in pods-structure.md **
 
+** Currently using Safe SVG plugin to upload svg files in certain cases, but will be looking at alternatives**
+
 **To Do:**
-* Add descriptive comments to the project as needed
+* Add descriptive comments to the project as needed (including Pods entries)
 * Incorporate Pods framework
     * Pod structure has been written down (pods-structure.md)
 * Change the class/id names to correctly represent elements
@@ -21,3 +23,7 @@
 * Make the code link button on the project page unclickable when there is no available repository
 
 * Check the spacing between the project page buttons and the title
+
+* Study how the technologies icons are being looped through in the project page. Also, make the loop conditional.
+
+*** need to check the wip boolean on the project page

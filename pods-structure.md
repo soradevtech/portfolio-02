@@ -12,10 +12,10 @@
 - about me text
 
 ### Portfolio
-*Each Portfolio Entry will have to be referenced in a repeater field (hello panda pods!)*
-- Thumbnail (relationship field)
-- Title for front page (relationship field)
-- Link to project page (related_field.permalink)
+*Looking into using panda pods repeater field in this section*
+- Thumbnail
+- Title for front page
+- Link to project page
 
 ### Contact
 - Email

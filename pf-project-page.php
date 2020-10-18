@@ -32,25 +32,17 @@ Template Post Type: pf_project
             <?php }; ?>
           </div>
         </div>
-        <p><b>Challenge: </b>Small businesses such as restaurants generally need a small website that describes their business and attracts customers.</p>
-        <p><b>Solution: </b>The Airport is a custom WordPress theme that has all of the usual features of your standard restaurant website while having an attractive layout to draw customers. The restaurant operator has a dashboard to edit pages and the parts within, such as menu items or locations.</p>
-        <p><b>Result: </b>The Airport is a great reference example for anyone looking to build a website and promote a restaurant to hungry customers.</p>
+        <?php echo $my_pod->display('post_content'); ?>
         <div class="technologies">
           <h3>Technologies</h3>
 
           <div class="icons">
-            <div class="icon">
-              <img src="<?php bloginfo('template_directory') ?>/img/wordpress-blue.svg" alt="">
-            </div>
-            <div class="icon">
-              <img src="<?php bloginfo('template_directory') ?>/img/html5.svg" alt="">
-            </div>
-            <div class="icon">
-              <img src="<?php bloginfo('template_directory') ?>/img/css-3.svg" alt="">
-            </div>
-            <div class="icon">
-              <img src="<?php bloginfo('template_directory') ?>/img/javascript-1.svg" alt="">
-            </div>
+              <?php echo $my_pod->display('post_thumbnail'); ?>
+            <?php foreach ($my_pod->get_field('tech_icons') as $photo) { ?>
+                <div class="icon">
+                  <img src="<?php echo $photo['guid']; ?>" alt="<?php echo $name; ?>">
+                </div>
+            <?php }; ?>
           </div>
         </div>
         <!-- <div class="video">

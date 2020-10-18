@@ -57,7 +57,9 @@
 	</div> -->
 
 	<div class="header-icons">
-		<?php 
+		<?php
+			// Setting query parameters to pull all entries in
+			// the nav_icon pod 
 			$params = array(
 				'limit' => 0
 			);
@@ -65,7 +67,7 @@
 
 			// Loop through the items returned
 			while ( $nav_icons->fetch() ) { ?>
-				<?php echo '<a href="' . $nav_icons->display('icon_link') . '" target="blank">'; ?>
+				<?php echo '<a href="' . $nav_icons->display('icon_link') . '" target="_blank">'; ?>
 					<?php echo $nav_icons->display('icon'); ?>
 				</a>
 		<?php }; ?>

@@ -65,7 +65,36 @@
     </div>
 
     <div class="portfolio-container">
-      <a href="/swatchframe/" class="box image1">
+      <style>
+        #portfolio-section .portfolio-container .box .image {
+          
+          height: 100%;
+          width: 100%;
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+        }
+      </style>
+      <?php 
+        $params = array(
+          'limit' => 0
+        );
+        $pf_pod = pods('pf_project', $params);
+
+        // Loop through the items returned
+        while ( $pf_pod->fetch() ) { ?>
+          <a href="/swatchframe/" class="box">
+            <div class="image" style="background: url('<?php echo $pf_pod->field('project_thumb'); ?>');">
+              <div class="hover-bg">
+                <div class="title">
+                  <div class="text"><?php echo $pf_pod->display('front_page_title'); ?></div>
+                </div>
+            </div>
+            </div>
+          </a>
+          
+      <?php }; ?>
+      <!-- <a href="/swatchframe/" class="box image1">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
@@ -109,7 +138,7 @@
             </div>
         </div>
         </div>
-      </a>
+      </a> -->
       <!-- <a href="https://book-list.tre-marshall.com/" target="_blank" class="box image6">
         <div class="image">
           <div class="hover-bg">
@@ -119,7 +148,7 @@
         </div>
         </div>
       </a> -->
-      <a href="/hyperapp-restaurant/" class="box image6">
+      <!-- <a href="/hyperapp-restaurant/" class="box image6">
         <div class="image">
           <div class="hover-bg">
             <div class="title">
@@ -136,7 +165,7 @@
             </div>
         </div>
         </div>
-      </a>
+      </a> -->
     </div>
   </div>
 </section>
