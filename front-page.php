@@ -6,20 +6,18 @@
 
 <section id="top">
   <div class="container">
-    <div class="info">
-      <div class="blue-square">
+    <div class="splash">
+      <div class="info">
 
+        <h1>Tracy Marshall</h1>
+        <p>Developer</p>
+        <span class="arrow">&#8594;</span> <a href="#portfolio-section">Latest Projects</a>
       </div>
-      <h1>Tracy Marshall</h1>
-      <p>Developer</p>
-      <a href="#portfolio-section">Latest Projects</a>
-    </div>
-    <div class="img">
       <div class="background-img">
         <!-- I had to write in all of the background image-specific properties directly
           to the page in order to display the image dynamically with Pods. -->
         <style>
-          #top .img .background-img {
+          #top .container .splash .background-img {
             background: url("<?php echo $my_pod->display('splash_image');?>");
             background-position: top center;
             background-repeat: no-repeat;
@@ -28,6 +26,8 @@
         </style>
       </div>
     </div>
+    <!-- <div class="img">
+    </div> -->
   </div>
 </section>
 <section id="testimonials-section">

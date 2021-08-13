@@ -1,30 +1,33 @@
-#top {
+// #top {
 
-}
+// }
 
 #top .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   padding: 80px 0;
-  align-items: center;
+  align-content: center;
 }
 
-#top .info {
+#top .splash {
 padding: 15px;
 position: relative;
+border: 20px solid #6495ed;
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+justify-items: center;
 }
 
-#top .info .blue-square {
-  border: 20px solid #6495ed;
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  z-index: 0;
-  top: -70%;
-  left: -50%;
-}
+// #top .info .blue-square {
+  
+//   width: 500px;
+//   height: 500px;
+//   position: absolute;
+//   z-index: 0;
+//   top: -70%;
+//   left: -50%;
+// }
 
-#top .info h1 {
+#top .splash h1 {
   position: relative;
   font-size: 2rem;
   text-transform: uppercase;
@@ -34,7 +37,7 @@ position: relative;
   z-index: 1;
 }
 
-#top .info p {
+#top .splash p {
   position: relative;
   color: $text-color;
   text-transform: capitalize;
@@ -42,7 +45,7 @@ position: relative;
   z-index: 1;
 }
 
-#top .info a {
+#top .splash a {
   position: relative;
   font-size: .9rem;
   color: #16171b;
@@ -53,13 +56,18 @@ position: relative;
   border-bottom: 2px solid #000;
   z-index: 1;
   letter-spacing: 2px;
+  vertical-align: top;
 }
 
-#top .img {
-
+#top .splash {
+  font-size: 1.5rem;
 }
 
-#top .img .background-img {
+// #top .img {
+
+// }
+
+#top .container .splash .background-img {
   // I dynamically create this background image using inline CSS and
   // pods directly on the page.
   // background: url('img/splash-phone.png');
@@ -70,7 +78,7 @@ position: relative;
   // background-size: cover;
   width: 100%;
   max-width: 500px;
-  height: 650px;
+  height: 400px;
   margin: 0 auto;
 }
 
@@ -79,10 +87,10 @@ position: relative;
   #top .container {
     padding: 0 0 80px;
   }
-  #top .info .blue-square {
+  #top .splash .blue-square {
     display: none;
   }
-  #top .img .background-img {
+  #top .splash .background-img {
     height: 100vh;
   }
 }
@@ -92,10 +100,10 @@ position: relative;
   #top .container {
     padding: 0 0 80px;
   }
-  #top .info .blue-square {
+  #top .splash .blue-square {
     display: none;
   }
-  #top .img .background-img {
+  #top .splash .background-img {
     height: 100vh;
   }
 }
