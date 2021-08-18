@@ -6,5 +6,3 @@
 ** Be sure to set the page template in each portfolio page post to Portfolio Page **
 
 ** Currently using Safe SVG plugin to upload svg files in certain cases, but will be looking at alternatives**
-
-

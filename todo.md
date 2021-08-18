@@ -25,5 +25,6 @@
 * Maybe change the splash section
 * Maybe look at a different effect for front page portfolio section hover
 * Maybe add a white background to the technologies section of the project page
+* Check the space between the description and technologies sections on the project page
 
 *** need to check the wip boolean on the project page ***

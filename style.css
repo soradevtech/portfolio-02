@@ -624,7 +624,7 @@ header .header-icons a:hover {
 #portfolio-section .portfolio-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 377px 377px 377px;
+  grid-template-rows: 377px 377px;
   grid-gap: 10px; }
 
 #portfolio-section .portfolio-container .box {
