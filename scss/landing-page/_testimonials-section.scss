@@ -168,9 +168,9 @@ padding: 80px 15px;
   #testimonials-section .testimonials-container {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 100px 1fr;
+    grid-template-rows: 0 1fr;
     grid-gap: 0;
-    padding: 100px 0;
+    padding: 0;
   }
   #testimonials-section .testimonials-container .test-sides.test-left {
     grid-column: 1 / 2;

@@ -501,7 +501,7 @@ header .header-icons a:hover {
 /* Phones */
 @media only screen and (max-width: 767px) {
   #top .container {
-    padding: 0 0 80px; }
+    padding: 0; }
 
   #top .splash .blue-square {
     display: none; }
@@ -690,7 +690,7 @@ header .header-icons a:hover {
   #portfolio-section .portfolio-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
     grid-gap: 10px; } }
 /* #portfolio-section .portfolio-container .box .fas {
   font-size: 2rem;
@@ -1134,9 +1134,9 @@ header .header-icons a:hover {
   #testimonials-section .testimonials-container {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 100px 1fr;
+    grid-template-rows: 0 1fr;
     grid-gap: 0;
-    padding: 100px 0; }
+    padding: 0; }
 
   #testimonials-section .testimonials-container .test-sides.test-left {
     grid-column: 1 / 2;
