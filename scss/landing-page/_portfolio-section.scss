@@ -207,10 +207,13 @@
 
 /* Tablets */
 @media only screen and (max-width: 960px) {
+  #protfolio-section {
+    padding: 0 15px;
+  }
   #portfolio-section .portfolio-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
     grid-gap: 10px;
   }
   // #portfolio-section .portfolio-container .box.image1 {
