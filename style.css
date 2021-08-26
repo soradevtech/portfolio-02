@@ -677,7 +677,7 @@ header .header-icons a:hover {
 /* Box locations */
 /* Tablets */
 @media only screen and (max-width: 960px) {
-  #protfolio-section {
+  #portfolio-section {
     padding: 0 15px; }
 
   #portfolio-section .portfolio-container {
